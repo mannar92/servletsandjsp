@@ -16,6 +16,7 @@ public class SquareServlet extends HttpServlet {
 
         PrintWriter output = response.getWriter();
         output.println("Squared Value of Sum is " + squaredValue);
+        output.print("This is a test commit!");
     }
 
 }
